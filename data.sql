@@ -1,0 +1,28 @@
+CREATE TABLE articulos (
+    id INT PRIMARY KEY,
+    marca VARCHAR (100),
+    color VARCHAR (50),
+    precio mxn DECIMAL (10,2),
+    contenido ml-g DECIMAL (10,2),
+);
+INSERT INTO articulos (marca, color, precio mxn, contenido ml-g)VALUES
+('Maybelline Fit Me','Beige',180,30.00),
+('Kat Von D Tattoo Liner', 'negro', 550, 0.55),
+('NARS Blush', 'Orgasm', 700, 4.80),
+('Urban Decay Naked Heat', 'Tonos calidos', 1300, 15.60),
+('LOreal Lash Paradise', 'Negro Intenso', 250, 7.60),
+('Benefit High Beam', 'Champagne Rosado', 650, 10.00),
+('Huda Beauty Liquid Matte', 'Bombshell', 580, 5.00),
+('Tarte Shape Tape', 'Light Medium Honey', 800, 10.00),
+('Laura Mercier Translucent Powder', 'Translucido', 1000, 29.00),
+('Smashbox Photo Finish', 'Incoloro', 860, 30.00),
+('Dior Lip Glow', 'Pink 001', 850, 3.20),
+('MAC Paint Pot', 'Soft Ochre', 580, 5.00),
+('Anastasia Beverly Hills Brow Wiz', 'Medium Brown', 550, 0.09),
+('Benefit Hoola Matte Bronzer', 'Hoola (Tono Medio)', 800, 8.00),
+('MAC Lipstick', 'Ruby Woo', 450, 3.00),
+('NYX Control Freak', 'Transparente', 180, 9.00),
+('Urban Decay All Nighter', 'Incoloro', 870, 118.00),
+('Marc Jacobs Highliner', 'Black', 600, 0.50),
+('Stila Glitter & Glow', 'Kitten Karma', 620, 4.50),
+('Physicians Formula Butter Bronzer', 'Bronzer', 300, 11.00);
